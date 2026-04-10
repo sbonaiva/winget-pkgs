@@ -6,21 +6,13 @@ InstallerLocale: en-US
 InstallerType: zip
 ReleaseDate: "2026-04-10"
 Installers:
-  - Architecture: x86
-    NestedInstallerType: portable
-    NestedInstallerFiles:
-      - RelativeFilePath: govm.exe
-        PortableCommandAlias: govm
-    InstallerUrl: https://github.com/sbonaiva/govm/releases/download/v0.0.7/govm_windows_386.zip
-    InstallerSha256: 716d9974a24a468619f842e5872e67a9fe38016e4b63c27e3c33a402c4ab6512
-    UpgradeBehavior: uninstallPrevious
   - Architecture: arm64
     NestedInstallerType: portable
     NestedInstallerFiles:
       - RelativeFilePath: govm.exe
         PortableCommandAlias: govm
     InstallerUrl: https://github.com/sbonaiva/govm/releases/download/v0.0.7/govm_windows_arm64.zip
-    InstallerSha256: 8e908aad50cb8344a17ecc55ae0d1bd822650779211326e2790d2eac18b904f5
+    InstallerSha256: b4284bd17201f68869ada5d1d728da69b94ecd0a2c8fbd784c2e1306af3b6dbc
     UpgradeBehavior: uninstallPrevious
   - Architecture: x64
     NestedInstallerType: portable
@@ -28,7 +20,15 @@ Installers:
       - RelativeFilePath: govm.exe
         PortableCommandAlias: govm
     InstallerUrl: https://github.com/sbonaiva/govm/releases/download/v0.0.7/govm_windows_amd64.zip
-    InstallerSha256: 48795d9692102c2f81d45802973ab41e9b2f2ee887c6bf2d7486c40106177e04
+    InstallerSha256: 1eb9b40c0214a67468fdfc192cece6d1615b833cfe57d47f5f0acd9f6c10b102
+    UpgradeBehavior: uninstallPrevious
+  - Architecture: x86
+    NestedInstallerType: portable
+    NestedInstallerFiles:
+      - RelativeFilePath: govm.exe
+        PortableCommandAlias: govm
+    InstallerUrl: https://github.com/sbonaiva/govm/releases/download/v0.0.7/govm_windows_386.zip
+    InstallerSha256: 8a38c295bae0a3f7fd14e3161f18b00ab8e79f4da310b7b117a49b0306cd746d
     UpgradeBehavior: uninstallPrevious
 ManifestType: installer
 ManifestVersion: 1.12.0
