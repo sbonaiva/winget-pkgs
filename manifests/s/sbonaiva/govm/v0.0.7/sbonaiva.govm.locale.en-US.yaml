@@ -28,13 +28,16 @@ ReleaseNotes: |
   ## Changelog
   * f3c06e4a39d483efb151be244211d57b81f89fc4 Merge branch 'main' of github.com:sbonaiva/govm into feature/configure-distribution
   * 0007249410e8ba345b103a43517d62959193576f Merge branch 'main' of github.com:sbonaiva/govm into feature/improving-logs
+  * f59a41f364eb20ff75c6d64829991928f267b254 Merge branch 'main' of github.com:sbonaiva/govm into feature/improving-version-bump
   * 472564fd248b5b46c574107d0ac2e87ba3e65dae Merge pull request #24 from sbonaiva/feature/configure-distribution
   * ef8c86f4361febd8a5a421a902fbd9497c7030cd Merge pull request #26 from sbonaiva/feature/improving-logs
   * 15ddbb051308007fbb265093fd826af02c19263e Merge pull request #27 from sbonaiva/feature/improving-version-bump
+  * d84ac579c302c3267b0e0a2851e6010cc7be9763 Merge pull request #28 from sbonaiva/feature/improving-version-bump
   * 44744c498df039fe214740266d6b6840cff67b07 chore: configure goreleaser
   * 94ace3ca1284b5f6a19c94cff4bf67495f8647d1 chore: configure goreleaser
   * 4d076a5c830ba3df67694feace16be2c16c323de chore: configure goreleaser
   * 304b83e4a968d8bbe36e403f854c2636d1dc1aa3 chore: removing unused function
+  * f1a61acf8a364476811d58e0fa448304136d39a6 chore: renaming checksum file
   * d7cebec4f1b7c8f0b65f33fa201e1c69a610490f feat: adding log command
   * bc5e07f418d4adc2992bde2fe15da9ca000f7d3f feat: improving version bumping
   * d383515e941d7f8e59ce29810e72a3ce9b96ab62 feat: improving version bumping
