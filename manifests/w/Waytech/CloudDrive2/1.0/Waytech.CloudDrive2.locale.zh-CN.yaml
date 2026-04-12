@@ -28,12 +28,14 @@ Tags:
 - 文件
 - 服务器
 ReleaseNotes: |-
-  1. 根据 123 云盘 API 变更，移除 123 云盘的永久删除文件选项，目前只能删除至回收站
-  2. S3 存储增加签名版本选项，默认为 V4，可选择 V2 来兼容老的 S3 服务
-  3. 修复一个可能会导致 web 界面显示服务器不可用的问题
-  4. 修复几处在需要输入 2FA 代码的输入框无法输入恢复码的问题
-  5. 其它性能改进
-ReleaseNotesUrl: https://github.com/cloud-fs/cloud-fs.github.io/releases/tag/v0.9.24
+  1. macOS 全新异步挂载引擎：直接与 macfuse 内核扩展通信， 支持完全异步并发，文件读取不再阻塞目录浏览，多个文件可同时读写，多线程同时从 FUSE 设备接收内核请求，避免单线程瓶颈导致的请求挤压，大幅改善 Finder 在大量文件操作时的流畅度；运行时动态检测 macfuse，未安装 macfuse 时给出错误提示而不是程序无法启动
+  2. 上传任务数据库从 PickleDB 迁移至 SQLite，重启后保持上传任务顺序
+  3. 修复在某些情况下，重启机器后多个备份任务状态被禁用，只能重启服务才能重新允许的问题
+  4. 离线下载支持.torrent 文件，可直接拖拽或者上传.torrent 文件，.torrent 文件会被解析成磁力链接后添加
+  5. 右键菜单新增云盘配置和文件夹磁盘缓存快捷入口，不再需要先打开属性面板才能设置云盘配置和磁盘缓存
+  6. 本地文件夹不再显示云盘配置和磁盘缓存配置
+  7. 其它性能改进、bug 修复和界面优化
+ReleaseNotesUrl: https://github.com/cloud-fs/cloud-fs.github.io/releases/tag/v1.0.5
 PurchaseUrl: https://www.clouddrive2.com/pricing.html
 ManifestType: locale
 ManifestVersion: 1.12.0

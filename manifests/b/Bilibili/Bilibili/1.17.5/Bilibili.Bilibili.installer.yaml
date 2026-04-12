@@ -9,14 +9,14 @@ UpgradeBehavior: install
 Protocols:
 - bilipc
 ProductCode: BiliBili
-ReleaseDate: 2026-01-26
+ReleaseDate: 2026-03-11
 ElevationRequirement: elevatesSelf
 Installers:
 - Architecture: x64
-  InstallerUrl: https://dl.hdslb.com/mobile/pack/bili_win/22851993/public/bilibili-setup-v1.17.5.exe
-  InstallerSha256: 3A8FA9E67C47C783B99FC9D322A171B16AF9DFBBD40D3B0603FE668806E3A96C
+  InstallerUrl: https://dl.hdslb.com/mobile/pack/bili_win/23480368/public/bilibili-setup-v1.17.5.exe
+  InstallerSha256: AE30FCE4882C612521B7536DCE2B299940899AA1955DF0E3D2DAEA2EF929382C
 - Architecture: arm64
-  InstallerUrl: https://dl.hdslb.com/mobile/pack/bili_win/22851993/public/bilibili-setup-v1.17.5.exe
-  InstallerSha256: 3A8FA9E67C47C783B99FC9D322A171B16AF9DFBBD40D3B0603FE668806E3A96C
+  InstallerUrl: https://dl.hdslb.com/mobile/pack/bili_win/23480368/public/bilibili-setup-v1.17.5.exe
+  InstallerSha256: AE30FCE4882C612521B7536DCE2B299940899AA1955DF0E3D2DAEA2EF929382C
 ManifestType: installer
 ManifestVersion: 1.12.0
